@@ -9,10 +9,12 @@ const newArray=[
     "thomasgrigio@st.it"
 ]
 
-const utente = prompt("scrivi la tua mail")
+let utente = prompt("scrivi la tua mail")
 
-for(let i=0; newArray.length;i++){
-    
+if(newArray.includes(utente)){
+    console.log('benvenuto')
 }
+else {
+    console.log('non puoi accedere')
 
-
+}
