@@ -1,4 +1,4 @@
-const newArray=[
+const mailingList=[
     "marcorossi@st.it",
     "francoverde@st.it",
     "gianmarcosbocco@st.it",
@@ -12,8 +12,8 @@ const newArray=[
 
 const userchoice = prompt("scrivi la tua mail")
 
-for(let i=0; newArray.length; i++){
-    if(userchoice==newArray){
+for(let i=0; i < mailingList.length; i++){
+    if(userchoice==mailingList[i]){
         console.log('benvenuto')
     }
     else {
